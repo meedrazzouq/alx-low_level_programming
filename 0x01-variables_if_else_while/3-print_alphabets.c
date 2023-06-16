@@ -14,7 +14,7 @@ int main(void)
 	for (i = 0; i < 26; i++)
 	{
 		putchar(alpLowerCase[i]);
-		putchar(alpUpperCase[i])
+		putchar(alpUpperCase[i]);
 	}
 	putchar('\n');
 	return (0);
