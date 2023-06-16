@@ -7,15 +7,14 @@
  */
 int main(void)
 {
-	char alpLowerCase[26] = "abcdefghijklmnopqrstuvwxyz";
-	char alpUpperCase[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
 
-	for (i = 0; i < 26; i++)
+	for (i = 0; i < 52; i++)
 	{
-		putchar(alpLowerCase[i]);
-		putchar(alpUpperCase[i]);
+		putchar(alp[i]);
 	}
 	putchar('\n');
 	return (0);
 }
+
